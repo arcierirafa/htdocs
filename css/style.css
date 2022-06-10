@@ -3,23 +3,25 @@ body
 	margin: 0;
 	font-size: 16px;
 	font-family: Arial, Helvetica, sans-serif;
+	background-color: #005670;
 }
 nav
 {
 	padding: 5px 20px;
 	background-color: #00779a;
-	color: #F8F8FF;
+	color: #F8F8F8;
 	margin-left: auto;
 	margin-right: auto;
 	text-align: right;
 }
-ul
-{
-	display: flex;
-    justify-content: space-between;
-    list-style-type: none;
-    align-items: center;
-    padding: 15px;
+#menu{
+		margin-left: 350px;
+		margin-right: 350px;
+}
+li{
+	padding: 15px;
+	margin-left: 10px;
+	display: inline-block;
 
 }
 li:hover{
@@ -27,36 +29,66 @@ li:hover{
 	background-color: #F8F8FF;
 	color:#00779a;
 }
-a
-{
+a{
 	text-decoration: none;
 	color: #F8F8FF;
 }
-img
-{
-  width:150px;
-  margin-top: 5px;
-  float: left;
-}
-#i
-{
-	margin: 0;
-	width: 1920px;
-	heigth:500px;
-	border: none;
+#logo{
+	float: left;
+	margin-top: 5px; 
+	width: 150px;
+	height: 80px;
 	
 }
-.
-#cards
-{
-	padding: 20px;
+#img-center{
+	margin: 0;
+	width:1920px;
+	height: 500px;
+}
+#cards{
+	padding: 70px;
 	border-radius: 5px;
 	background-color: #00779a;
 	color: #f0f8fa;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	margin-left: 30px;
+	margin-right: 5px;
+	height: 300px;
+	text-align: center;
+}
+#hr
+{
+		
+}
+#videoYoutube{
+
+	height: 500px;
 	margin-top: 25px;
 	margin-bottom: 25px;
 	margin-left: 350px;
 	margin-right: 350px;
-	height: 400px;
-	text-align: center;
+}
+.card
+{
+	border: solid 1px #fff;
+	border-radius: 5px;
+	margin-left: 50px;
+	margin-right: 50px;
+	margin-top: 20px;
+	padding: 0px;
+	display: inline-block;
+	box-shadow: 10px 5px 5px #083d4d;
+}
+.card img
+{
+	max-height: 200px;
+	max-width: 150px;
+}
+#rodape
+{
+	height: 100px;
+	background-color: #00779a;
+	margin-left: 30px;
+	border-radius: 5px;
 }
